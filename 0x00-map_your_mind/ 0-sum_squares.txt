@@ -1,0 +1,8 @@
+n=int(input())
+
+def f(n):
+    sum_squares=0
+    for i in range(n):
+        sum_squares=sum_squares+i**2
+    return sum_squares
+print(f(n))

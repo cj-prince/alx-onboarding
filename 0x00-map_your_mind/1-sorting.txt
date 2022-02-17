@@ -1,0 +1,15 @@
+n=(1-20)
+
+Sorted = false 
+If ((n = 1) && (!Sorted)) {
+  Return Sorted = true 
+  for(i=1, i<n, i++){
+     If (a[i-1] > a[i]){
+       Temp = a[i-1]
+        a[i-1] = a[i]
+        A[i] = Temp
+        Sorted = false 
+     }
+  }
+i–
+} 
